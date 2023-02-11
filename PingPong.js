@@ -61,7 +61,7 @@ function drawPaddles() {
 }
 function createBall() {
 	//initial speed
-	ballSpeed = 5;
+	ballSpeed = 3;
 	//make random directions
 	if (Math.round(Math.random()) == 1) {
 		ballXDirection = 1;
