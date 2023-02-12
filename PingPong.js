@@ -163,7 +163,7 @@ function changeDirection(event) {
 	}
 }
 function updateScore() {
-	if (player1Score >= 10 || player2Score >= 1) {
+	if (player1Score >= 10 || player2Score >= 10) {
 		clearBoard();
 		drawPaddles();
 		running = false;
